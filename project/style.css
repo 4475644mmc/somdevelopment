@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+}
+
+/* Navbar section  */
+
+.navbar{
+    background-color: transparent;
+    height: 10vh;
+    margin: 5% 5% 0 5%;
+
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar .nav-item .nav-link{
+    padding-right: 2rem !important;
+    color: white;
+    background-color: transparent !important;
+    font-size: 18px;
+    font-weight: 600;
+    /* pointer-events: none; */
+    text-decoration: none;
+    position: relative;
+    transition: width .3s ease-in-out;
+    cursor: pointer !important;
+}
+
+.navbar .nav-item .nav-link:hover{
+    background-color: transparent !important;
+}
+
+.navbar .nav-item .nav-link::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: white;
+    height: 2px;
+    width: 0;
+}
+
+ .navbar .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+nav .navbar-brand img{
+    width: 13rem;
+}
+
+/* first page  */
+
+.firstpage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg\ 2.avif);
+    background-size: cover;
+}
+
+.firstpage .firstpagecontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.firstpage .firstpagecontent h1{
+    font-size: 6vw;
+    color: white;
+}
+
+.firstpage .firstpagecontent .btn{
+    pointer-events: none;
+    width: 174px;
+    padding: 12px 18px;
+    border-radius: 0 !important;
+}
+
+.firstpage .firstpagecontent .btn:hover{}
+
+
+/* second page  */
+.secondpage{
+    width: 100%;
+    height: 70vh;
+    margin-top: 40px;
+}
+
+.secondpage .secondpagecontent{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondpage .secondpage-image{
+    max-width: 500px;
+}
+
+.secondpage .secondpage-info{
+    max-width: 600px;
+}
+
+.secondpage .secondpage-info .btn{
+    pointer-events: none;
+    width: 174px;
+    padding: 12px 18px;
+    border-radius: 0 !important;
+}
+
+
+/* third page  */
+
+.thirdpage{
+    width: 100%;
+    height: 100vh;
+}
+
+ .thirdpage-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.thirdpage-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.thirpage .thirdpage-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.thirdpage .thirdpage-images img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Keeps the aspect ratio of images */
+  }
+
+ 
+.thirdpage-content .btn-primary{
+    margin: 0 auto;
+    pointer-events: none;
+    width: 174px;
+    padding: 12px 18px;
+    border-radius: 0 !important;
+}
+
+
+/* fourth page  */
+
+.fourthpage{
+    width: 100%;
+    height: 80vh;
+    margin-top: 3rem;
+    background-color: navy;
+   
+}
+
+.fourthpage-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    min-height: 60vh;
+    
+}
+
+.fourthpage-disc{
+    max-width: 500px;
+    flex-direction: column;
+}
+
+.fourthpage-content .fourthpage-num {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+}
+
+ .fourthpage-num{
+    line-height: 2;
+}
+
+.fourthpage-num span{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.fourthpage-disc .btn{
+    pointer-events: none;
+    width: 174px;
+    padding: 12px 18px;
+    border-radius: 0 !important;
+}
+
+
+/* fifth page  */
+
+.fifthpage {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end; /* Aligns the content to the right */
+    align-items: center; /* Centers the content vertically */
+}
+
+.fifthpage-content {
+    margin-right: 20px; /* Optional: Add margin if you want some space from the right edge */
+}
+
+.fifthpage-content p{
+    max-width: 400px;
+}
+
+.fifthpage-content .btn{
+    pointer-events: none;
+    width: 174px;
+    padding: 12px 18px;
+    border-radius: 0 !important;
+}
+
+/* sixth page  */
+
+.sixthpage{
+    width: 100%;
+    height: 40vh;
+    background-color: navy;
+}
+
+.sixthpage-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30vh;
+    color: white;
+}
+
+
+
+
+
+

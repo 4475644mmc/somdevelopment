@@ -1,0 +1,143 @@
+
+@media only screen and (max-width: 550px){
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 550px){
+    .firstpage{
+        width: 100%;
+        height: 100%;
+    }
+
+    .firstpagecontent{
+        transform: translate(-6%, 20%);
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 550px){
+ .secondpage{
+    /* width: 100%; */
+    height: 100%;
+ }
+
+ .secondpagecontent{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+ }
+
+ .secondpage-info .btn{
+    margin: 1rem 12rem;
+ }
+
+ .secondpage-info h3,p{
+    margin: 0 .5rem;
+ }
+
+
+
+ .secondpage-image img{
+    /* transform: translate(-20%, 20%);
+    margin-bottom: 5rem; */
+ }
+
+}
+
+
+@media only screen and (max-width: 550px){
+    .thirpage{
+        width: 100%;
+        height: 100%;
+        /* transform: translate(-20%, 5%); */
+        margin-bottom: 5rem;
+    }
+    
+
+    .thirdpage-images img{
+        /* transform: translate(-20%, 20%);
+        margin-bottom: 4rem; */
+    }
+
+    .thirdpage-images h4{
+      margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .fourthpage{
+        width: 100%;
+        height: 100%;
+    }
+
+    .fourthpage-content{
+        flex-direction: column;
+    }
+
+    .fourthpage-num {
+        transform: translate(-84%, 10%);
+
+        margin-bottom: 6rem;
+
+    }
+
+    .fourthpage-num p span{
+        display: block;
+        
+    }
+
+    .fourthpage-num span{
+        font-size: 2rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 550px){
+    .fifthpage{
+        width: 100%;
+        height: 100%;
+    }
+    .fifthpage-content{
+        transform: translate(-26%, 10%);
+
+        margin-bottom: 6rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 550px){
+    .sixthpage{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sixthpage-content{
+        flex-direction: column;
+        transform: translate(-39%, 10%);
+        
+    }
+
+    .sixthpage-info{
+        transform: translate(30%, 10%);
+    }
+
+    /* .sixthpage-contacts{
+     
+    } */
+
+
+}
