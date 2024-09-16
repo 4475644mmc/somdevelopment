@@ -258,4 +258,374 @@ nav .navbar-brand img{
 
 
 
+/* /////////////////////////////
+/////////////////////////////
+//////////////////////
+ABOUT PAGE //////////////////////
+//////////////// */
+
+.aboutpageone{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg\ 3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutpageone-info h1{
+  padding-top: 35%;
+  color: white;
+  font-size: 8vw;
+  font-weight: 700; 
+}
+
+/* page two */
+
+.aboutpageTwo{
+    width: 100%;
+    height: 100vh;
+    margin-top: 3rem;
+}
+
+.aboutpageTwo-info{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 2rem; */
+    position: relative;
+}
+
+.about-image img{
+    width: 500px;
+    margin: 0 1rem 0 1.5rem;
+    
+    
+}
+
+.aboutpageone-dis{
+    flex-direction: column;
+    /* margin: 2rem 0 0rem 2rem; */
+}
+
+.aboutpageone-dis p{
+    max-width: 600px;
+    margin-top: 20px;
+    line-height: 1.7;
+    
+}
+
+.underhistoryimage{
+    width: 100%;
+}
+
+.underhistoryimage img{
+    position: absolute;
+    width: 75rem;
+    height: 40vh;
+    margin-bottom: 2rem;
+    transform: translate(15%, -20%) ;
+    z-index: -100;
+}
+
+/* third page  */
+
+.aboutpagethird{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aliceblue; */
+    margin-top: 2rem;
+}
+
+.aboutpagethird-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutthirdpageimage img{
+ margin-right: 1.5rem;
+}
+
+.aboutpagethird-dis{
+    /* margin: 2rem 0 0rem 2rem; */
+    flex-direction: column;
+}
+
+.aboutpagethird-dis p{
+    max-width: 600px;
+}
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////
+///////////////////////////////////
+//////////////////////////////
+/////////////////////////////
+/////////////////////////////
+/////////////PROJECT PAGE///////////////
+///////////// */
+
+.projectpageone{
+    width: 100%;
+    height: 100vh;
+}
+
+.projectpageone-info{
+    padding-top: 20%;
+}
+
+.projects-des{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pragraph-des p{
+    max-width: 650px;
+    /* margin-right: 8rem; */
+}
+
+.video{
+    width: 100vw;
+}
+
+iframe{
+  margin: 0 2rem 0 4rem;
+  border-radius: 20px;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-around; /* Adds space between the images */
+    align-items: center; /* Vertically centers the images */
+    margin-bottom: 9rem;
+  }
+  
+  .project-images img {
+    width: 30%; /* Adjust the width to fit your layout */
+    height: 50vh; /* Maintain aspect ratio */
+    border-radius: 20px;
+  }
+
+  .project-title-image{
+    width: 100%;
+    margin-bottom: -5px;
+}
+ .project-title-image img{
+  width: 100%;
+  height: 60vh;
+  /* margin: 0 2rem 0 5rem; */
+
+}
+
+.project-title-image h1{
+    transform: translate(20rem, 30rem);
+    color: #fff;
+    font-size: 8vw;
+}
+
+ 
+/* ////////////////////////////////////////////////////////
+////////////////////////////////////////////////////
+///////////////////////////////////////////////////
+////////////////////////////////////////////////////
+SERVICE PAGE //////////////////////
+///////////////////////// */
+
+.servicepageone{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg\ 3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servicepageone-info h1{
+  padding-top: 35%;
+  color: white;
+  font-size: 8vw;
+  font-weight: 700; 
+}
+
+/* page two  */
+
+.servicepagetwo-info{
+    flex-direction: column;
+}
+
+.servicepagetwo-title p{
+    display: block;
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 3rem;
+}
+
+.servicepagetwo-des{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 2rem 3rem;
+    /* flex-direction: column; */
+}
+
+.service-text{
+    width: 600px;
+    flex-direction: column;
+    margin: 5rem 0 0 0;
+}
+
+/* page three  */
+
+.servicepagethree{
+    width: 100%;
+    height: 70vh;
+    background-color: aliceblue;
+}
+
+.servicepagethree-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 65vh;
+}
+
+.servicepagethree-info .btn{
+    pointer-events: none;
+    width: 174px;
+    padding: 12px 18px;
+    border-radius: 0 !important;
+    line-height: 2;
+}
+
+.servicepagethree-info h1{
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.servicepagethree-info p{
+    font-size: 1.6vw;
+    font-weight: 400;
+    text-align-last: center;
+}
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////
+CAREERS PAGE /////////////////////////////////
+//////////////////////////////////////////
+/////////////////////// */
+
+.careerpageone{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg\ 4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.careerpageone-info h1{
+  padding-top: 35%;
+  color: white;
+  font-size: 8vw;
+  font-weight: 700; 
+}
+
+.careerspagetwo-info{
+ display: block;
+ margin: 3rem 0 1.2rem 4rem;
+}
+
+.careerspagetwo-title h2{
+    font-size: 3vw;
+    color: navy;
+    margin-bottom: 3rem;
+}
+
+.careers-vacantpositions{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.careers-vacantpositions h1{
+    color: navy;
+}
+
+.careers-vacantpositions h2 a{
+    color: navy !important;
+}
+
+.careers-vacantpositions p{
+    font-weight: 600;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////
+//////////CONTACTS PAGE/////////////////////////////////
+/////////////////////////// */
+
+.contactspageone{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg\ 5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.contactspageone-info h1{
+  padding-top: 35%;
+  color: white;
+  font-size: 8vw;
+  font-weight: 700; 
+}
+
+.contactspagetwo-title h2{
+    padding: 3rem 0 0 4rem;
+}
+
+.contactspagetwo-info{
+    background-color: antiquewhite;
+
+}
+
+.contactspagetwo-des{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0 0 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -141,3 +141,218 @@
 
 
 }
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+About page////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 550px){
+
+    .aboutpageone{
+        width: 100%;
+        height: 100vh;
+    }
+  .aboutpageone-info h1{
+    padding-top: 90%;
+  }  
+}
+
+/* page two */
+@media only screen and (max-width: 550px){
+
+.aboutpageTwo{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5rem;
+}
+
+.aboutpageTwo-info{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+}
+
+.underhistoryimage{
+    display: none;
+}
+
+
+}
+
+
+/* third page  */
+
+@media only screen and (max-width: 550px){
+    .aboutpagethird{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .aboutpagethird-info{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .aboutpagethird-dis p{
+        margin-bottom: 1rem;
+        
+    }
+}
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////PROJECT PAGE//////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 550px){
+.projectpageone{
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+}
+
+.allprojects{
+    margin-bottom: 8rem;
+}
+
+.projects-des{
+    flex-direction: column;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width * 100) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+   iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    transform: translate(-12%, 10%);
+    border-radius: 0;
+    
+  }
+  
+  @media (max-width: 550px) {
+    .video {
+      padding-bottom: 75%; /* Adjust aspect ratio for smaller screens if needed */
+      margin-bottom: 5rem;
+    }
+
+    .project-images{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .project-images img{
+        width: 90%;
+        border-radius: 0;
+        margin-bottom: 2rem;
+
+    }
+  .project-title-image{
+        width: 100%;
+        margin-bottom: -8rem;
+        margin-top: -8rem;
+    }
+ .project-title-image img{
+        width: 550px;
+    }
+
+    .project-title-image h1{
+        transform: translate(0, 18rem);
+        /* display: block; */
+        color: white;
+
+    }
+  }
+}
+
+
+/* ///////////////////////////////////////////////
+//////////////////////////////////////////////
+///////////////////////////////////////////
+///////////////////////////////////
+SERVICE PAGE /////////////////////////
+//////////////// */
+
+@media only screen and (max-width: 550px){
+
+    .servicepageone{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .servicepageone-info h1{
+        padding-top: 80%;
+    }
+     .servicepagetwo-title{
+        font-size: 0.5rem !important;
+        transform: translate(-6%, 1%);
+     }
+    .servicepagetwo-info{
+        display: block;
+    }
+
+    .servicepagetwo-des{
+        display: block;
+        
+    }
+
+    .service-image img{
+        transform: translate(-6%, 1%);
+    }
+
+    .service-text{
+        max-width: 550px;
+    }
+
+    .service-text p{
+        max-width: 450px;
+    }
+
+    /* page three  */
+
+    .servicepagethree-info h1{
+        font-size: 2rem;
+    }
+
+    .servicepagethree-info p{
+        font-size: 1.2rem;
+    }
+
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////
+//////////////////////////////////////////////
+/////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////////
+CAREERS PAGE //////////////////////////////
+////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 550px){
+    .careerpageone-info h1{
+        padding-top: 80%;
+    }
+    .careerspagetwo-info{
+        transform: translate(-4%, 0);
+    }
+}
